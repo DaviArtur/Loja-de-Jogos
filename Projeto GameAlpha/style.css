@@ -1,0 +1,68 @@
+body{
+    background: grey;
+}
+
+.titulo{
+    font-size: 70px;
+    margin: 10px;
+}
+
+nav{
+    right :40px;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    position: absolute;
+    top: 40px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+}
+
+nav a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+ul li{
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.banner{
+    width: 100%;
+}
+
+.paragrafos{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 30px;
+    text-align: center;
+    background: goldenrod;
+}
+
+ul{
+    position: absolute;
+    font-size: 20px;
+    margin-right: 10%;
+    font-style: italic;
+
+}
+
+.titulo_2{
+    text-align: center;
+    font-size: 50px;
+}
+
+.imagem_2{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+}
