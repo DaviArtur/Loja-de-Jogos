@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="contato.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
+
+<body>
+    <header>
+        <img src="logo.jpg" class="logoGame">
+        <h1 class="titulo">
+            AlphaGames
+                </h1>
+                    <nav>
+                        <a href="index.html">Home</a>
+                        <a href="jogos.html">Jogos</a>
+                        <a href="contato.html">Contato</a>
+                    </nav>   
+    </header>
+
+    <main>
+        <div>  
+            <form>
+                <label for="nome" class="formu">Nome</label>
+                <input type="text" id="nome" class="box">
+
+                <label for="email" class="formu">Email</label>
+                <input type="text" id="email" class="box">
+
+                <label for="telefone" class="formu">Telefone</label>
+                <input  type="text"  id="telefone" class="box">
+
+                <label for="mensagem" class="formu">Mensagem</label>
+                <textarea id="mensagem" class="textarea"></textarea>
+            </form>
+        <div>
+
+        <div>
+            <form>
+                <p>Como prefere o nosso contato?</p>
+                <label for="radio-email" class="radio"><input type="radio" value="radio-email" name="contato">E-mail</label>
+
+                <label for="telefone-radio" class="radio"><input type="radio" value="telefone-radio" name="contato">Telefone</label>
+                
+                <label for="radio-whatsapp" class="radio"><input type="radio" value="radio-whatsapp" name="contato">Whatsapp</label>
+        </div>
+
+        <div class="horarios">
+            <p>Qual o melhor horário para entrarmos em contato?</p>
+            <select>
+                <option>Manhã</option>
+                <option>Tarde</option>
+                <option>Noite</option>
+            </select>
+        </div>
+
+                <label class="checkbox">Gostaria de receber nossas novidades por email?</label>
+                <input type="checkbox">Sim
+
+                <input type="submit" value="Enviar Formulário" class="submit">
+            </form>
+        
+    </main>
+
+    <footer>
+        <p class="rodape">&copy;AlphaGames - 2022</p>
+    </footer>
+</body>

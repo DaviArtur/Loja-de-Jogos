@@ -1,0 +1,120 @@
+body{
+    background: #CCCCCC;
+}
+
+header{
+    background-color: grey;
+}
+
+.logoGame{
+    width: 200px;
+    display: inline;
+    margin-left: 75px;
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.titulo{
+    font-size: 70px;
+    top: 175px;
+    position: absolute;
+    padding: 5px;
+}
+
+nav{
+    right :40px;
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    position: absolute;
+    top: 200px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+}
+
+nav a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.banner_2{
+    width: 100%;
+    height: 350px;
+    margin-top: 15px;
+}
+
+h1{
+    font-size: 70px;
+    top: 0;
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+}
+
+.jogos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+ul li{
+    display: inline-block;
+    margin: 20px 1.5%;
+    width: 30%;
+    text-align: center;
+    vertical-align: top;
+    box-sizing: border-box;
+    padding: 15px 30px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+}
+
+ul li:hover{
+    text-decoration: underline;
+    font-size: 30px;
+    border-color: black;
+}
+
+ul li:active{
+    border-color: red;
+}
+
+ul li:hover{
+    font-size: 30px;
+}
+
+ul li:hover h2{
+    font-size: 30px;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.imgjogos{
+    width: 75%;
+}
+
+.preco{
+    font-weight: bold;
+    padding: 10px;
+}
+
+.descricao{
+    color: red;
+}
+
+.rodape{
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}

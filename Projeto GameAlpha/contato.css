@@ -1,0 +1,121 @@
+body{
+    background: bisque;
+}
+
+header{
+    background-color: gray;
+}
+
+.logoGame{
+    width: 200px;
+    display: inline;
+    margin-left: 80px;
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.titulo{
+    font-size: 70px;
+    top: 160px;
+    position: absolute;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+nav{
+    right :40px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    position: absolute;
+    top: 200px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.formu{
+    display: block; 
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.box{
+    width: 50%;
+    padding: 10px;
+}
+
+form label{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+form label, form input, form textarea{
+    position: relative;
+    margin-left: 10px;
+}
+
+.textarea{
+    padding: 25px;
+    width: 50%;
+    height: 50px;
+}
+
+form p{
+    font-size: 21px;
+    padding: 10px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.name{
+    padding: 10px;
+}
+
+.radio{
+    display: block;
+    padding: 5px;
+}
+
+.horarios p{
+    font-size: 20px;
+    margin: 10px 10px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.checkbox{
+    font-size: 20px;
+    margin: 30px 10px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+select{
+    padding: 10px;
+    margin: 15px 10px;
+}
+
+.submit{
+    display: block;
+    margin: 20px;
+    padding: 15px;
+}
+
+.rodape{
+    bottom: 0px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 20px;
+}
