@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="contato.css">
@@ -21,46 +22,54 @@
     </header>
 
     <main>
-        <div>  
-            <form>
-                <label for="nome" class="formu">Nome</label>
-                <input type="text" id="nome" class="box">
+        <form>
+            <label for="nome" class="formu">Nome</label>
+            <input type="text" id="nome" class="box" placeholder="Nome Sobrenome" required>
 
-                <label for="email" class="formu">Email</label>
-                <input type="text" id="email" class="box">
+            <label for="email" class="formu">Email</label>
+            <input type="email" id="email" class="box" placeholder="email@domínio.com" required>
 
-                <label for="telefone" class="formu">Telefone</label>
-                <input  type="text"  id="telefone" class="box">
+            <label for="telefone" class="formu">Telefone</label>
+            <input  type="tel"  id="telefone" class="box" placeholder="(XX)XXXXX-XXXX" required>
 
-                <label for="mensagem" class="formu">Mensagem</label>
-                <textarea id="mensagem" class="textarea"></textarea>
-            </form>
-        <div>
+            <label for="mensagem" class="formu">Mensagem</label>
+            <textarea id="mensagem" class="textarea"></textarea>
 
-        <div>
-            <form>
-                <p>Como prefere o nosso contato?</p>
-                <label for="radio-email" class="radio"><input type="radio" value="radio-email" name="contato">E-mail</label>
+            <p>Como prefere o nosso contato?</p>
+            <label for="radio-email" class="radio"><input type="radio" value="radio-email" name="contato">E-mail</label>
 
-                <label for="telefone-radio" class="radio"><input type="radio" value="telefone-radio" name="contato">Telefone</label>
+           <label for="telefone-radio" class="radio"><input type="radio" value="telefone-radio" name="contato">Telefone</label>
                 
-                <label for="radio-whatsapp" class="radio"><input type="radio" value="radio-whatsapp" name="contato">Whatsapp</label>
-        </div>
+            <label for="radio-whatsapp" class="radio"><input type="radio" value="radio-whatsapp" name="contato" checked>Whatsapp</label>
 
         <div class="horarios">
             <p>Qual o melhor horário para entrarmos em contato?</p>
-            <select>
+            <select class="caixinha">
                 <option>Manhã</option>
                 <option>Tarde</option>
                 <option>Noite</option>
             </select>
         </div>
 
+        <table>
+            <trhead>Horários
+                <td>
+                    
+                </td>
+            </trhead>
+
+            <th>
+                <td>
+                    10:00
+                </td>
+            </th>
+        </table>
+
                 <label class="checkbox">Gostaria de receber nossas novidades por email?</label>
-                <input type="checkbox">Sim
+                <input type="checkbox" checked>Sim
 
                 <input type="submit" value="Enviar Formulário" class="submit">
-            </form>
+        </form>
         
     </main>
 
@@ -68,3 +77,4 @@
         <p class="rodape">&copy;AlphaGames - 2022</p>
     </footer>
 </body>
+</html>

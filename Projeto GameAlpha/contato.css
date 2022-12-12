@@ -1,9 +1,9 @@
 body{
-    background: bisque;
+    background: linear-gradient(rgb(68, 63, 63), grey);
 }
 
 header{
-    background-color: gray;
+    background: gray;
 }
 
 .logoGame{
@@ -87,9 +87,13 @@ form p{
     padding: 5px;
 }
 
+.caixinha{
+    margin: 0 0 25px 40px;
+}
+
 .horarios p{
     font-size: 20px;
-    margin: 10px 10px;
+    padding: 20px;
     font-weight: bold;
     font-style: italic;
 }
@@ -109,7 +113,19 @@ select{
 .submit{
     display: block;
     margin: 20px;
-    padding: 15px;
+    padding: 30px;
+    width: 30%;
+    border-radius: 10px;
+    border-style: none;
+    background: orange;
+    cursor: pointer;
+    transition: all 3s;
+    font-weight: bold;
+}
+
+.submit:hover{
+    background: orangered;
+    transform: scale(1.2);
 }
 
 .rodape{
@@ -117,5 +133,5 @@ select{
     text-align: center;
     font-size: 12px;
     font-weight: bold;
-    padding: 20px;
+    padding: 30px;
 }

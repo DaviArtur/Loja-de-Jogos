@@ -1,39 +1,43 @@
 body{
-    background: #CCCCCC;
+    background: linear-gradient(blue, grey);
 }
 
 header{
-    background-color: grey;
+    background: grey;
 }
 
 .logoGame{
-    width: 200px;
+    width: 250px;
     display: inline;
-    margin-left: 75px;
+    margin-left: 100px;
     margin-bottom: 60px;
     position: relative;
 }
 
 .titulo{
-    font-size: 70px;
-    top: 175px;
+    font-size: 87px;
+    top: 200px;
     position: absolute;
-    padding: 5px;
+    margin-left: 15px;
+    font-weight: bold;
 }
 
 nav{
-    right :40px;
-    font-size: 40px;
+    right: 40px;
     font-weight: bold;
     padding-bottom: 5px;
     position: absolute;
-    top: 200px;
+    top: 245px;
+    margin: 0 10px;
 }
 
 nav a{
     text-decoration: none;
     color: black;
-    margin: 5px;
+    margin: 10px;
+    font-size: 44px;
+    font-weight: bold;
+    padding: 3px;
 }
 
 nav a:hover{
