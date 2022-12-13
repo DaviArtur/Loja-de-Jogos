@@ -4,13 +4,16 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="contato.css">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Rubik+Vinyl&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <img src="logo.jpg" class="logoGame">
+        <img src="Game-console-01.png" class="logoGame" alt="Logo em formato de controle de video-game.">
         <h1 class="titulo">
             AlphaGames
                 </h1>
@@ -35,41 +38,47 @@
             <label for="mensagem" class="formu">Mensagem</label>
             <textarea id="mensagem" class="textarea"></textarea>
 
-            <p>Como prefere o nosso contato?</p>
-            <label for="radio-email" class="radio"><input type="radio" value="radio-email" name="contato">E-mail</label>
+            <div class="radios">
+                <p>Como prefere o nosso contato?</p>
+                <label for="radio-email" class="radio"><input type="radio" value="radio-email" name="contato">E-mail</label>
 
-           <label for="telefone-radio" class="radio"><input type="radio" value="telefone-radio" name="contato">Telefone</label>
+                <label for="telefone-radio" class="radio"><input type="radio" value="telefone-radio" name="contato">Telefone</label>
                 
-            <label for="radio-whatsapp" class="radio"><input type="radio" value="radio-whatsapp" name="contato" checked>Whatsapp</label>
+                <label for="radio-whatsapp" class="radio"><input type="radio" value="radio-whatsapp" name="contato" checked>Whatsapp</label>
 
-        <div class="horarios">
-            <p>Qual o melhor horário para entrarmos em contato?</p>
-            <select class="caixinha">
-                <option>Manhã</option>
-                <option>Tarde</option>
-                <option>Noite</option>
-            </select>
-        </div>
-
-        <table>
-            <trhead>Horários
-                <td>
-                    
-                </td>
-            </trhead>
-
-            <th>
-                <td>
-                    10:00
-                </td>
-            </th>
-        </table>
-
+            </div>
+            <div class="horarios">
+                <p>Qual o melhor horário para entrarmos em contato?</p>
+                <select class="caixinha">
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+            </div>
                 <label class="checkbox">Gostaria de receber nossas novidades por email?</label>
                 <input type="checkbox" checked>Sim
 
                 <input type="submit" value="Enviar Formulário" class="submit">
         </form>
+        
+        <table class="tabela">
+            <thead>
+                <tr>
+                    <th>Dia</th>
+                    <th>Horário</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Segunda a Sexta-Feira</td>
+                    <td>08:00 ~ 20:00</td>
+                </tr>
+                <tr>
+                    <td>Sábado e Feriados</td>
+                    <td>08:00 ~ 12:00</td>
+                </tr>
+            </tbody>
+        </table>
         
     </main>
 
