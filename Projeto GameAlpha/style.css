@@ -1,3 +1,16 @@
+.pularNavegacao{
+    position: absolute;
+    opacity: 0;
+    border: 10px solid black;
+    padding: 5px;
+}
+
+.pularNavegacao:hover{
+    opacity: 1;
+    text-decoration: none;
+    color: white;
+}
+
 header{
     background: linear-gradient(black  , white);
 }
